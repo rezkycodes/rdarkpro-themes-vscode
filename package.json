@@ -1,20 +1,33 @@
 {
-  "name": "rezky-theme",
-  "displayName": "Rezky Theme",
-  "description": "",
-  "version": "0.0.1",
+  "name": "r-night-pro",
+  "displayName": "R Night Pro",
+  "description": "A theme that suits your eyes.",
+  "version": "0.0.3",
+  "icon": "./images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezkyrere/r-night-pro"
+  },
+  "publisher": "Rezky",
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "r night",
+    "r night pro",
+    "r night pro theme"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Rezky Theme",
+        "label": "R Night Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/Rezky Theme-color-theme.json"
+        "path": "./themes/r-night-pro-color-theme.json"
       }
     ]
   }

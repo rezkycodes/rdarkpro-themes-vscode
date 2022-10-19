@@ -1,4 +1,5 @@
-# rezky-theme README
+# R Night Pro
+R Night Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code. It has been designed by the Rezky P. Budihartono.
 
 ## Working with Markdown
 
@@ -10,7 +11,7 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Visual Studio Code's Markdown Support](https://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
