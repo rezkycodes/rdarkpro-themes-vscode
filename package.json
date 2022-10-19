@@ -28,6 +28,11 @@
         "label": "R Night Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/r-night-pro-color-theme.json"
+      },
+      {
+        "label": "R Night Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/r-night-dark-pro-color-theme.json"
       }
     ]
   }
