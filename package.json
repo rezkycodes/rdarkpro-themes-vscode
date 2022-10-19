@@ -2,8 +2,8 @@
   "name": "r-night-pro",
   "displayName": "R Night Pro",
   "description": "A theme that suits your eyes.",
-  "version": "0.0.3",
-  "icon": "./images/icon.png",
+  "version": "0.0.1",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
   },
