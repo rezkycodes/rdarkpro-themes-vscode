@@ -2,7 +2,7 @@
   "name": "r-night-pro",
   "displayName": "R Night Pro",
   "description": "A theme that suits your eyes.",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -33,6 +33,13 @@
         "label": "R Night Dark Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/r-night-dark-pro-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "label": "R Night Pro Icons",
+        "id": "R Night Pro Icons",
+        "path": "./icon-themes/R Night Pro icon-theme.json"
       }
     ]
   }
