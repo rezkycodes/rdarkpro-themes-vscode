@@ -1,8 +1,8 @@
 {
-  "name": "r-night-pro",
-  "displayName": "R Night Pro",
+  "name": "r-dark-pro",
+  "displayName": "R Dark Pro",
   "description": "A theme that suits your eyes.",
-  "version": "0.1.2",
+  "version": "0.0.1",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -18,28 +18,33 @@
   "keywords": [
     "theme",
     "dark theme",
-    "r night",
-    "r night pro",
-    "r night pro theme"
+    "r dark",
+    "r dark pro",
+    "r dark pro theme"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "R Night Pro",
+        "label": "R Dark Pro (Filter Night)",
         "uiTheme": "vs-dark",
-        "path": "./themes/r-night-pro-color-theme.json"
+        "path": "./themes/r-night-pro-filter-night-color-theme.json"
       },
       {
-        "label": "R Night Dark Pro",
+        "label": "R Dark Pro (Filter Full Dark)",
         "uiTheme": "vs-dark",
-        "path": "./themes/r-night-dark-pro-color-theme.json"
+        "path": "./themes/r-dark-pro-filter-full-dark-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Mitclan)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/r-dark-pro-filter-mitclan-color-theme.json"
       }
     ],
     "iconThemes": [
       {
-        "label": "R Night Pro Icons",
-        "id": "R Night Pro Icons",
-        "path": "./icon-themes/R Night Pro icon-theme.json"
+        "label": "R Dark Pro Icons",
+        "id": "R Dark Pro Icons",
+        "path": "./icon-themes/R Dark Pro icon-theme.json"
       }
     ]
   }

@@ -1,10 +1,10 @@
 {
     "fonts": [
         {
-            "id": "r_night_pro_icons",
+            "id": "r_dark_pro_icons",
             "src": [
                 {
-                    "path": "./r_night_pro_icons.woff",
+                    "path": "./r_dark_pro_icons.woff",
                     "format": "woff"
                 }
             ],
