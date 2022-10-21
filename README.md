@@ -1,5 +1,5 @@
-# R Night Pro
-R Night Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code. It has been designed by the Rezky P. Budihartono.
+# R Dark Pro
+R Dark Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code. It has been designed by the Rezky P. Budihartono.
 
 ## Apply theme
 

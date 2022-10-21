@@ -1,608 +1,626 @@
 {
-    "fonts": [
+  "fonts": [
+    {
+      "id": "r_dark_pro_icons",
+      "src": [
         {
-            "id": "r_dark_pro_icons",
-            "src": [
-                {
-                    "path": "./r_dark_pro_icons.woff",
-                    "format": "woff"
-                }
-            ],
-            "weight": "normal",
-            "style": "normal",
-            "size": "16px"
+          "path": "./r_dark_pro_icons.woff",
+          "format": "woff"
         }
-    ],
-    "iconDefinitions": {
-        "_angular": {
-            "fontCharacter": "\\F101",
-            "fontColor": "#fc618d"
-        },
-        "_applescript": {
-            "fontCharacter": "\\F102",
-            "fontColor": "#7bd88f"
-        },
-        "_binary": {
-            "fontCharacter": "\\F103",
-            "fontColor": "#fce566"
-        },
-        "_blade": {
-            "fontCharacter": "\\F104",
-            "fontColor": "#fc618d"
-        },
-        "_c": {
-            "fontCharacter": "\\F105",
-            "fontColor": "#fc618d"
-        },
-        "_certificate": {
-            "fontCharacter": "\\F15D",
-            "fontColor": "#ff5722"
-        },
-        "_c#": {
-            "fontCharacter": "\\F106",
-            "fontColor": "#948ae3"
-        },
-        "_c++": {
-            "fontCharacter": "\\F107",
-            "fontColor": "#5ad4e6"
-        },
-        "_changelog": {
-            "fontCharacter": "\\F161",
-            "fontColor": "#8bc34a"
-        },
-        "_clojure": {
-            "fontCharacter": "\\F108",
-            "fontColor": "#5ad4e6"
-        },
-        "_": {
-            "fontCharacter": "\\F144",
-            "fontColor": {
-                "DARK2": "#131313",
-                "DARK1": "#191919",
-                "BACKGROUND": "#222222",
-                "TEXT": "#f7f1ff",
-                "ACCENT1": "#fc618d",
-                "ACCENT2": "#fd9353",
-                "ACCENT3": "#fce566",
-                "ACCENT4": "#7bd88f",
-                "ACCENT5": "#5ad4e6",
-                "ACCENT6": "#948ae3",
-                "DIMMED1": "#bab6c0",
-                "DIMMED2": "#8b888f",
-                "DIMMED3": "#69676c",
-                "DIMMED4": "#525053",
-                "DIMMED5": "#363537"
-            }
-        },
-        "_coffeescript": {
-            "fontCharacter": "\\F10A",
-            "fontColor": "#5ad4e6"
-        },
-        "_contributing": {
-            "fontCharacter": "\\F10A",
-            "fontColor": "#ffca28"
-        },
-        "_crystal": {
-            "fontCharacter": "\\F10B",
-            "fontColor": "#948ae3"
-        },
-        "_css": {
-            "fontCharacter": "\\F15A",
-            "fontColor": "#42a5f5"
-        },
-        "_csv": {
-            "fontCharacter": "\\F10D",
-            "fontColor": "#fce566"
-        },
-        "_dart": {
-            "fontCharacter": "\\F10E",
-            "fontColor": "#5ad4e6"
-        },
-        "_default": {
-            "fontCharacter": "\\F10F",
-            "fontColor": "#fce566"
-        },
-        "_docker": {
-            "fontCharacter": "\\F111",
-            "fontColor": "#5ad4e6"
-        },
-        "_elixir": {
-            "fontCharacter": "\\F114",
-            "fontColor": "#948ae3"
-        },
-        "_elm": {
-            "fontCharacter": "\\F115",
-            "fontColor": "#5ad4e6"
-        },
-        "_env": {
-            "fontCharacter": "\\F15C",
-            "fontColor": "#fce566"
-        },
-        "_erlang": {
-            "fontCharacter": "\\F117",
-            "fontColor": "#fc618d"
-        },
-        "_eslint": {
-            "fontCharacter": "\\F118",
-            "fontColor": "#948ae3"
-        },
-        "_folder": {
-            "fontCharacter": "\\F11A",
-            "fontColor": "#8b888f"
-        },
-        "_folder-open": {
-            "fontCharacter": "\\F11B",
-            "fontColor": "#8b888f"
-        },
-        "_folder-root": {
-            "fontCharacter": "\\F11C",
-            "fontColor": "#8b888f"
-        },
-        "_folder-root-open": {
-            "fontCharacter": "\\F11D",
-            "fontColor": "#8b888f"
-        },
-        "_font": {
-            "fontCharacter": "\\F11E",
-            "fontColor": "#948ae3"
-        },
-        "_fortran": {
-            "fontCharacter": "\\F11F",
-            "fontColor": "#fc618d"
-        },
-        "_git": {
-            "fontCharacter": "\\F120",
-            "fontColor": "#fd9353"
-        },
-        "_go": {
-            "fontCharacter": "\\F121",
-            "fontColor": "#5ad4e6"
-        },
-        "_graphql": {
-            "fontCharacter": "\\F122",
-            "fontColor": "#fc618d"
-        },
-        "_handlebars": {
-            "fontCharacter": "\\F123",
-            "fontColor": "#fd9353"
-        },
-        "_hare": {
-            "fontCharacter": "\\F124",
-            "fontColor": "#948ae3"
-        },
-        "_haskell": {
-            "fontCharacter": "\\F125",
-            "fontColor": "#fd9353"
-        },
-        "_haxe": {
-            "fontCharacter": "\\F126",
-            "fontColor": "#fd9353"
-        },
-        "_haxealt": {
-            "fontCharacter": "\\F127",
-            "fontColor": "#fce566"
-        },
-        "_image": {
-            "fontCharacter": "\\F129",
-            "fontColor": "#fce566"
-        },
-        "_java": {
-            "fontCharacter": "\\F12A",
-            "fontColor": "#5ad4e6"
-        },
-        "_js": {
-            "fontCharacter": "\\F12B",
-            "fontColor": "#fce566"
-        },
-        "_json": {
-            "fontCharacter": "\\F160",
-            "fontColor": "#fbc02d"
-        },
-        "_julia": {
-            "fontCharacter": "\\F12D",
-            "fontColor": "#948ae3"
-        },
-        "_less": {
-            "fontCharacter": "\\F12E",
-            "fontColor": "#948ae3"
-        },
-        "_lisp": {
-            "fontCharacter": "\\F12F",
-            "fontColor": "#fc618d"
-        },
-        "_lua": {
-            "fontCharacter": "\\F131",
-            "fontColor": "#5ad4e6"
-        },
-        "_markdown": {
-            "fontCharacter": "\\F132",
-            "fontColor": "#7bd88f"
-        },
-        "_markup": {
-            "fontCharacter": "\\F133",
-            "fontColor": "#fd9353"
-        },
-        "_matlab": {
-            "fontCharacter": "\\F134",
-            "fontColor": "#fd9353"
-        },
-        "_npm": {
-            "fontCharacter": "\\F137",
-            "fontColor": "#fc618d"
-        },
-        "_nodejs": {
-            "fontCharacter": "\\F164",
-            "fontColor": "#8bc34a"
-        },
-        "_ocaml": {
-            "fontCharacter": "\\F138",
-            "fontColor": "#fd9353"
-        },
-        "_perl": {
-            "fontCharacter": "\\F139",
-            "fontColor": "#5ad4e6"
-        },
-        "_php": {
-            "fontCharacter": "\\F13A",
-            "fontColor": "#5ad4e6"
-        },
-        "_prolog": {
-            "fontCharacter": "\\F13C",
-            "fontColor": "#fc618d"
-        },
-        "_pug": {
-            "fontCharacter": "\\F13D",
-            "fontColor": "#fd9353"
-        },
-        "_python": {
-            "fontCharacter": "\\F13E",
-            "fontColor": "#7bd88f"
-        },
-        "_r": {
-            "fontCharacter": "\\F13F",
-            "fontColor": "#5ad4e6"
-        },
-        "_rails": {
-            "fontCharacter": "\\F140",
-            "fontColor": "#fc618d"
-        },
-        "_react": {
-            "fontCharacter": "\\F141",
-            "fontColor": "#5ad4e6"
-        },
-        "_reason": {
-            "fontCharacter": "\\F142",
-            "fontColor": "#fd9353"
-        },
-        "_restructuredtext": {
-            "fontCharacter": "\\F143",
-            "fontColor": "#7bd88f"
-        },
-        "_ruby": {
-            "fontCharacter": "\\F145",
-            "fontColor": "#fc618d"
-        },
-        "_rust": {
-            "fontCharacter": "\\F146",
-            "fontColor": "#fd9353"
-        },
-        "_sass": {
-            "fontCharacter": "\\F15E",
-            "fontColor": "#fc618d"
-        },
-        "_scala": {
-            "fontCharacter": "\\F148",
-            "fontColor": "#fc618d"
-        },
-        "_shell": {
-            "fontCharacter": "\\F149",
-            "fontColor": "#7bd88f"
-        },
-        "_source": {
-            "fontCharacter": "\\F14A",
-            "fontColor": "#fce566"
-        },
-        "_sql": {
-            "fontCharacter": "\\F14B",
-            "fontColor": "#948ae3"
-        },
-        "_stylus": {
-            "fontCharacter": "\\F14C",
-            "fontColor": "#fd9353"
-        },
-        "_svelte": {
-            "fontCharacter": "\\F14D",
-            "fontColor": "#fc618d"
-        },
-        "_svg": {
-            "fontCharacter": "\\F163",
-            "fontColor": "#ffb300"
-        },
-        "_swift": {
-            "fontCharacter": "\\F14F",
-            "fontColor": "#fc618d"
-        },
-        "_symbolic-link": {
-            "fontCharacter": "\\F150",
-            "fontColor": "#8b888f"
-        },
-        "_tailwindcss": {
-            "fontCharacter": "\\F161",
-            "fontColor": "#4db6ac"
-        },
-        "_terraform": {
-            "fontCharacter": "\\F151",
-            "fontColor": "#948ae3"
-        },
-        "_tex": {
-            "fontCharacter": "\\F152",
-            "fontColor": "#fd9353"
-        },
-        "_text": {
-            "fontCharacter": "\\F153",
-            "fontColor": "#fce566"
-        },
-        "_todo": {
-            "fontCharacter": "\\F154",
-            "fontColor": "#7bd88f"
-        },
-        "_toml": {
-            "fontCharacter": "\\F155",
-            "fontColor": "#948ae3"
-        },
-        "_twig": {
-            "fontCharacter": "\\F156",
-            "fontColor": "#7bd88f"
-        },
-        "_typescript": {
-            "fontCharacter": "\\F157",
-            "fontColor": "#5ad4e6"
-        },
-        "_vue": {
-            "fontCharacter": "\\F158",
-            "fontColor": "#7bd88f"
-        },
-        "_vscode": {
-            "fontCharacter": "\\F162",
-            "fontColor": "#2196f3"
-        },
-        "_yaml": {
-            "fontCharacter": "\\F159",
-            "fontColor": "#fce566"
-        }
-    },
-    "file": "_default",
-    "folder": "_folder",
-    "folderExpanded": "_folder-open",
-    "rootFolder": "_folder-root",
-    "rootFolderExpanded": "_folder-root-open",
-    "hidesExplorerArrows": true,
-    "folderNames": {},
-    "fileExtensions": {
-        "cmx": "_ocaml",
-        "cmxa": "_ocaml",
-        "csv": "_csv",
-        "cer": "_certificate",
-        "cert": "_certificate",
-        "crt": "_certificate",
-        "eot": "_font",
-        "f": "_fortran",
-        "f90": "_fortran",
-        "for": "_fortran",
-        "gif": "_image",
-        "hs": "_haskell",
-        "hxml": "_haxe",
-        "jpeg": "_image",
-        "jpg": "_image",
-        "lhs": "_haskell",
-        "ml": "_ocaml",
-        "mli": "_ocaml",
-        "png": "_image",
-        "pug": "_pug",
-        "pxm": "_image",
-        "rst": "_restructuredtext",
-        "scala": "_scala",
-        "sql": "_sql",
-        "svg": "_svg",
-        "todo": "_todo",
-        "ttf": "_font",
-        "twig": "_twig",
-        "txt": "_text",
-        "vue": "_vue",
-        "vscodeignore": "_vscode",
-        "vsixmanifest": "_vscode",
-        "vsix": "_vscode",
-        "code-workplace": "_vscode",
-        "webp": "_image",
-        "woff": "_font",
-        "woff2": "_font",
-        
-    },
-    "fileNames": {
-        ".dockerignore": "_docker",
-        ".env": "_env",
-        ".env.dev": "_env",
-        ".env.example": "_env",
-        ".env.local": "_env",
-        ".env.prod": "_env",
-        ".env.staging": "_env",
-        ".env.defaults": "_env",
-        ".env.sample": "_env",
-        ".env.template": "_env",
-        ".env.schema": "_env",
-        ".env.development": "_env",
-        ".env.alpha": "_env",
-        ".env.e2e": "_env",
-        ".env.qa": "_env",
-        ".env.dist": "_env",
-        ".env.production": "_env",
-        ".env.stage": "_env",
-        ".env.preview": "_env",
-        ".env.test": "_env",
-        ".env.testing": "_env",
-        ".env.development.local": "_env",
-        ".env.qa.local": "_env",
-        ".env.production.local": "_env",
-        ".env.staging.local": "_env",
-        ".env.test.local": "_env",
-        ".eslintignore": "_eslint",
-        ".eslintrc": "_eslint",
-        ".eslintrc.js": "_eslint",
-        ".eslintrc.json": "_eslint",
-        ".eslintrc.yaml": "_eslint",
-        ".eslintrc.yml": "_eslint",
-        ".gitattributes": "_git",
-        ".gitconfig": "_git",
-        ".gitignore": "_git",
-        ".gitkeep": "_git",
-        ".gitmodules": "_git",
-        ".npmignore": "_npm",
-        ".npmrc": "_npm",
-        ".nvmrc": "_nodejs",
-        ".esmrc": "_nodejs",
-        ".node-version": "_nodejs",
-        "docker-compose.override.yml": "_docker",
-        "docker-compose.yaml": "_docker",
-        "docker-compose.yml": "_docker",
-        "git-history": "_git",
-        "contributing.md":"_contributing",
-        "contributing.rst":"_contributing",
-        "contributing.txt":"_contributing",
-        "contributing":"_contributing",
-        "package.json":"_nodejs",
-        "package-lock.json":"_nodejs",
-        "changelog":"_changelog",
-        "changelog.md":"_changelog",
-        "changelog.rst":"_changelog",
-        "changelog.txt":"_changelog",
-        "changes":"_changelog",
-        "changes.md":"_changelog",
-        "changes.rst":"_changelog",
-        "changes.txt":"_changelog",
-        "tailwind.js":"_tailwindcss",
-        "tailwind.ts":"_tailwindcss",
-        "tailwind.config.js":"_tailwindcss",
-        "tailwind.config.cjs":"_tailwindcss",
-        "tailwind.config.ts":"_tailwindcss",
-        "tailwind.config.cts":"_tailwindcss",
-        "copying" : "_certificate",
-        "copying.md" : "_certificate",
-        "copying.rst" : "_certificate",
-        "copying.txt" : "_certificate",
-        "copyright" : "_certificate",
-        "copyright.md" : "_certificate",
-        "copyright.rst" : "_certificate",
-        "copyright.txt" : "_certificate",
-        "license" : "_certificate",
-        "license-agpl" : "_certificate",
-        "license-apache" : "_certificate",
-        "license-bsd" : "_certificate",
-        "license-mit" : "_certificate",
-        "license-gpl" : "_certificate",
-        "license-lgpl" : "_certificate",
-        "license.md" : "_certificate",
-        "license.rst" : "_certificate",
-        "license.txt" : "_certificate",
-        "licence" : "_certificate",
-        "licence-agpl" : "_certificate",
-        "licence-apache" : "_certificate",
-        "licence-bsd" : "_certificate",
-        "licence-mit" : "_certificate",
-        "licence-gpl" : "_certificate",
-        "licence-lgpl" : "_certificate",
-        "licence.md" : "_certificate",
-        "licence.rst" : "_certificate",
-        "licence.txt" : "_certificate",
-        ".jscsrc" : "_json",
-        ".jshintrc" : "_json",
-        "composer.lock" : "_json",
-        ".jsbeautifyrc" : "_json",
-        ".esformatter" : "_json",
-        "cdp.pid" : "_json",
-        ".lintstagedrc" : "_json",
-        
-
-    },
-    "languageIds": {
-        "angular": "_angular",
-        "blade": "_blade",
-        "c": "_c",
-        "clojure": "_clojure",
-        "coffeescript": "_coffeescript",
-        "cpp": "_c++",
-        "csharp": "_c#",
-        "crystal": "_crystal",
-        "css": "_css",
-        "dart": "_dart",
-        "diff": "_default",
-        "dockerignore": "_docker",
-        "dockerfile": "_docker",
-        "elixir": "_elixir",
-        "elm": "_elm",
-        "erlang": "_erlang",
-        "fortran": "_fortran",
-        "fortran90": "_fortran",
-        "fortran95": "_fortran",
-        "fsharp": "_default",
-        "git-rebase": "_git",
-        "go": "_go",
-        "graphql": "_graphql",
-        "groovy": "_default",
-        "handlebars": "_handlebars",
-        "hare": "_hare",
-        "haxe": "_haxe",
-        "html": "_markup",
-        "ng-template": "_angular",
-        "ini": "_default",
-        "jade": "_default",
-        "java": "_java",
-        "javascript": "_js",
-        "javascriptreact": "_react",
-        "json": "_json",
-        "jsonc": "_json",
-        "tsbuildinfo": "_json",
-        "json5": "_json",
-        "jsonl": "_json",
-        "ndjson": "_json",
-        "julia": "_julia",
-        "latex": "_tex",
-        "less": "_less",
-        "lua": "_lua",
-        "makefile": "_default",
-        "markdown": "_markdown",
-        "matlab": "_matlab",
-        "objective-c": "_c",
-        "objective-cpp": "_c++",
-        "perl": "_perl",
-        "php": "_php",
-        "powershell": "_shell",
-        "pug": "_pug",
-        "prolog": "_prolog",
-        "python": "_python",
-        "r": "_r",
-        "razor": "_default",
-        "reason": "_reason",
-        "rescript": "_reason",
-        "ruby": "_ruby",
-        "rust": "_rust",
-        "sass": "_sass",
-        "scss": "_sass",
-        "shaderlab": "_default",
-        "shellscript": "_shell",
-        "sql": "_sql",
-        "stylus": "_stylus",
-        "svelte": "_svelte",
-        "swift": "_swift",
-        "tex": "_tex",
-        "terraform": "_terraform",
-        "todo": "_todo",
-        "toml": "_toml",
-        "typescript": "_typescript",
-        "typescriptreact": "_react",
-        "vb": "_default",
-        "xml": "_markup",
-        "xsl": "_default",
-        "yaml": "_yaml",
-        "restructuredtext": "_restructuredtext"
+      ],
+      "weight": "normal",
+      "style": "normal",
+      "size": "16px"
     }
+  ],
+  "iconDefinitions": {
+    "_angular": {
+      "fontCharacter": "\\F101",
+      "fontColor": "#fc618d"
+    },
+    "_applescript": {
+      "fontCharacter": "\\F102",
+      "fontColor": "#7bd88f"
+    },
+    "_binary": {
+      "fontCharacter": "\\F103",
+      "fontColor": "#fce566"
+    },
+    "_blade": {
+      "fontCharacter": "\\F104",
+      "fontColor": "#fc618d"
+    },
+    "_c": {
+      "fontCharacter": "\\F105",
+      "fontColor": "#fc618d"
+    },
+    "_certificate": {
+      "fontCharacter": "\\F15D",
+      "fontColor": "#ff5722"
+    },
+    "_c#": {
+      "fontCharacter": "\\F106",
+      "fontColor": "#948ae3"
+    },
+    "_c++": {
+      "fontCharacter": "\\F107",
+      "fontColor": "#5ad4e6"
+    },
+    "_changelog": {
+      "fontCharacter": "\\F161",
+      "fontColor": "#8bc34a"
+    },
+    "_clojure": {
+      "fontCharacter": "\\F108",
+      "fontColor": "#5ad4e6"
+    },
+    "_": {
+      "fontCharacter": "\\F144",
+      "fontColor": {
+        "DARK2": "#131313",
+        "DARK1": "#191919",
+        "BACKGROUND": "#222222",
+        "TEXT": "#f7f1ff",
+        "ACCENT1": "#fc618d",
+        "ACCENT2": "#fd9353",
+        "ACCENT3": "#fce566",
+        "ACCENT4": "#7bd88f",
+        "ACCENT5": "#5ad4e6",
+        "ACCENT6": "#948ae3",
+        "DIMMED1": "#bab6c0",
+        "DIMMED2": "#8b888f",
+        "DIMMED3": "#69676c",
+        "DIMMED4": "#525053",
+        "DIMMED5": "#363537"
+      }
+    },
+    "_coffeescript": {
+      "fontCharacter": "\\F10A",
+      "fontColor": "#5ad4e6"
+    },
+    "_contributing": {
+      "fontCharacter": "\\F166",
+      "fontColor": "#ffca28"
+    },
+    "_crystal": {
+      "fontCharacter": "\\F10B",
+      "fontColor": "#948ae3"
+    },
+    "_css": {
+      "fontCharacter": "\\F16A",
+      "fontColor": "#42a5f5"
+    },
+    "_csv": {
+      "fontCharacter": "\\F10D",
+      "fontColor": "#fce566"
+    },
+    "_dart": {
+      "fontCharacter": "\\F10E",
+      "fontColor": "#5ad4e6"
+    },
+    "_default": {
+      "fontCharacter": "\\F167",
+      "fontColor": "#42a5f5"
+    },
+    "_docker": {
+      "fontCharacter": "\\F111",
+      "fontColor": "#5ad4e6"
+    },
+    "_editorconfig": {
+      "fontCharacter": "\\F16C",
+      "fontColor": "#5cbcfc"
+    },
+    "_elixir": {
+      "fontCharacter": "\\F114",
+      "fontColor": "#948ae3"
+    },
+    "_elm": {
+      "fontCharacter": "\\F115",
+      "fontColor": "#5ad4e6"
+    },
+    "_env": {
+      "fontCharacter": "\\F15C",
+      "fontColor": "#fce566"
+    },
+    "_erlang": {
+      "fontCharacter": "\\F117",
+      "fontColor": "#fc618d"
+    },
+    "_eslint": {
+      "fontCharacter": "\\F118",
+      "fontColor": "#948ae3"
+    },
+    "_folder": {
+      "fontCharacter": "\\F11A",
+      "fontColor": "#8b888f"
+    },
+    "_folder-open": {
+      "fontCharacter": "\\F11B",
+      "fontColor": "#8b888f"
+    },
+    "_folder-root": {
+      "fontCharacter": "\\F11C",
+      "fontColor": "#8b888f"
+    },
+    "_folder-root-open": {
+      "fontCharacter": "\\F11D",
+      "fontColor": "#8b888f"
+    },
+    "_font": {
+      "fontCharacter": "\\F169",
+      "fontColor": "#948ae3"
+    },
+    "_fortran": {
+      "fontCharacter": "\\F11F",
+      "fontColor": "#fc618d"
+    },
+    "_git": {
+      "fontCharacter": "\\F120",
+      "fontColor": "#f94e1a"
+    },
+    "_go": {
+      "fontCharacter": "\\F121",
+      "fontColor": "#5ad4e6"
+    },
+    "_graphql": {
+      "fontCharacter": "\\F122",
+      "fontColor": "#fc618d"
+    },
+    "_handlebars": {
+      "fontCharacter": "\\F123",
+      "fontColor": "#fd9353"
+    },
+    "_hare": {
+      "fontCharacter": "\\F124",
+      "fontColor": "#948ae3"
+    },
+    "_haskell": {
+      "fontCharacter": "\\F125",
+      "fontColor": "#fd9353"
+    },
+    "_haxe": {
+      "fontCharacter": "\\F126",
+      "fontColor": "#fd9353"
+    },
+    "_haxealt": {
+      "fontCharacter": "\\F127",
+      "fontColor": "#fce566"
+    },
+    "_html": {
+      "fontCharacter": "\\F16B",
+      "fontColor": "#e44d26"
+    },
+    "_image": {
+      "fontCharacter": "\\F165",
+      "fontColor": "#31dbca"
+    },
+    "_java": {
+      "fontCharacter": "\\F12A",
+      "fontColor": "#5ad4e6"
+    },
+    "_js": {
+      "fontCharacter": "\\F16D",
+      "fontColor": "#fce566"
+    },
+    "_json": {
+      "fontCharacter": "\\F160",
+      "fontColor": "#fbc02d"
+    },
+    "_julia": {
+      "fontCharacter": "\\F12D",
+      "fontColor": "#948ae3"
+    },
+    "_less": {
+      "fontCharacter": "\\F12E",
+      "fontColor": "#948ae3"
+    },
+    "_lisp": {
+      "fontCharacter": "\\F12F",
+      "fontColor": "#fc618d"
+    },
+    "_lua": {
+      "fontCharacter": "\\F131",
+      "fontColor": "#5ad4e6"
+    },
+    "_markdown": {
+      "fontCharacter": "\\F132",
+      "fontColor": "#7bd88f"
+    },
+    "_markup": {
+      "fontCharacter": "\\F133",
+      "fontColor": "#fd9353"
+    },
+    "_matlab": {
+      "fontCharacter": "\\F134",
+      "fontColor": "#fd9353"
+    },
+    "_npm": {
+      "fontCharacter": "\\F137",
+      "fontColor": "#fc618d"
+    },
+    "_nodejs": {
+      "fontCharacter": "\\F164",
+      "fontColor": "#8bc34a"
+    },
+    "_ocaml": {
+      "fontCharacter": "\\F138",
+      "fontColor": "#fd9353"
+    },
+    "_perl": {
+      "fontCharacter": "\\F139",
+      "fontColor": "#5ad4e6"
+    },
+    "_php": {
+      "fontCharacter": "\\F13A",
+      "fontColor": "#1E88E5"
+    },
+    "_prolog": {
+      "fontCharacter": "\\F13C",
+      "fontColor": "#fc618d"
+    },
+    "_pug": {
+      "fontCharacter": "\\F13D",
+      "fontColor": "#fd9353"
+    },
+    "_python": {
+      "fontCharacter": "\\F13E",
+      "fontColor": "#7bd88f"
+    },
+    "_r": {
+      "fontCharacter": "\\F13F",
+      "fontColor": "#5ad4e6"
+    },
+    "_rails": {
+      "fontCharacter": "\\F140",
+      "fontColor": "#fc618d"
+    },
+    "_react": {
+      "fontCharacter": "\\F141",
+      "fontColor": "#5ad4e6"
+    },
+    "_reason": {
+      "fontCharacter": "\\F142",
+      "fontColor": "#fd9353"
+    },
+    "_restructuredtext": {
+      "fontCharacter": "\\F143",
+      "fontColor": "#7bd88f"
+    },
+    "_ruby": {
+      "fontCharacter": "\\F145",
+      "fontColor": "#fc618d"
+    },
+    "_rust": {
+      "fontCharacter": "\\F146",
+      "fontColor": "#fd9353"
+    },
+    "_sass": {
+      "fontCharacter": "\\F15E",
+      "fontColor": "#fc618d"
+    },
+    "_scala": {
+      "fontCharacter": "\\F148",
+      "fontColor": "#fc618d"
+    },
+    "_shell": {
+      "fontCharacter": "\\F149",
+      "fontColor": "#7bd88f"
+    },
+    "_source": {
+      "fontCharacter": "\\F14A",
+      "fontColor": "#fce566"
+    },
+    "_sql": {
+      "fontCharacter": "\\F14B",
+      "fontColor": "#948ae3"
+    },
+    "_stylus": {
+      "fontCharacter": "\\F14C",
+      "fontColor": "#fd9353"
+    },
+    "_svelte": {
+      "fontCharacter": "\\F14D",
+      "fontColor": "#fc618d"
+    },
+    "_svg": {
+      "fontCharacter": "\\F163",
+      "fontColor": "#ffb300"
+    },
+    "_swift": {
+      "fontCharacter": "\\F14F",
+      "fontColor": "#fc618d"
+    },
+    "_symbolic-link": {
+      "fontCharacter": "\\F150",
+      "fontColor": "#8b888f"
+    },
+    "_tailwindcss": {
+      "fontCharacter": "\\F15B",
+      "fontColor": "#4db6ac"
+    },
+    "_terraform": {
+      "fontCharacter": "\\F151",
+      "fontColor": "#948ae3"
+    },
+    "_tex": {
+      "fontCharacter": "\\F152",
+      "fontColor": "#fd9353"
+    },
+    "_text": {
+      "fontCharacter": "\\F153",
+      "fontColor": "#fce566"
+    },
+    "_todo": {
+      "fontCharacter": "\\F154",
+      "fontColor": "#7bd88f"
+    },
+    "_toml": {
+      "fontCharacter": "\\F155",
+      "fontColor": "#948ae3"
+    },
+    "_twig": {
+      "fontCharacter": "\\F156",
+      "fontColor": "#7bd88f"
+    },
+    "_typescript": {
+      "fontCharacter": "\\F15F",
+      "fontColor": "#0288d1"
+    },
+    "_vite": {
+      "fontCharacter": "\\F168",
+      "fontColor": "#ffab00"
+    },
+    "_vue": {
+      "fontCharacter": "\\F158",
+      "fontColor": "#7bd88f"
+    },
+    "_vscode": {
+      "fontCharacter": "\\F162",
+      "fontColor": "#2196f3"
+    },
+    "_yaml": {
+      "fontCharacter": "\\F159",
+      "fontColor": "#fce566"
+    }
+  },
+  "file": "_default",
+  "folder": "_folder",
+  "folderExpanded": "_folder-open",
+  "rootFolder": "_folder-root",
+  "rootFolderExpanded": "_folder-root-open",
+  "hidesExplorerArrows": true,
+  "folderNames": {},
+  "fileExtensions": {
+    "cmx": "_ocaml",
+    "cmxa": "_ocaml",
+    "csv": "_csv",
+    "css": "_css",
+    "cer": "_certificate",
+    "cert": "_certificate",
+    "crt": "_certificate",
+    "eot": "_font",
+    "f": "_fortran",
+    "f90": "_fortran",
+    "for": "_fortran",
+    "gif": "_image",
+    "hs": "_haskell",
+    "hxml": "_haxe",
+    "jpeg": "_image",
+    "jpg": "_image",
+    "lhs": "_haskell",
+    "ml": "_ocaml",
+    "mli": "_ocaml",
+    "png": "_image",
+    "pug": "_pug",
+    "pxm": "_image",
+    "rst": "_restructuredtext",
+    "scala": "_scala",
+    "sql": "_sql",
+    "svg": "_svg",
+    "todo": "_todo",
+    "ttf": "_font",
+    "twig": "_twig",
+    "txt": "_text",
+    "vue": "_vue",
+    "vscodeignore": "_vscode",
+    "vsixmanifest": "_vscode",
+    "vsix": "_vscode",
+    "code-workplace": "_vscode",
+    "webp": "_image",
+    "woff": "_font",
+    "woff2": "_font"
+  },
+  "fileNames": {
+    "artisan": "_blade",
+    ".dockerignore": "_docker",
+    ".editorconfig": "_editorconfig",
+    ".env": "_env",
+    ".env.dev": "_env",
+    ".env.example": "_env",
+    ".env.local": "_env",
+    ".env.prod": "_env",
+    ".env.staging": "_env",
+    ".env.defaults": "_env",
+    ".env.sample": "_env",
+    ".env.template": "_env",
+    ".env.schema": "_env",
+    ".env.development": "_env",
+    ".env.alpha": "_env",
+    ".env.e2e": "_env",
+    ".env.qa": "_env",
+    ".env.dist": "_env",
+    ".env.production": "_env",
+    ".env.stage": "_env",
+    ".env.preview": "_env",
+    ".env.test": "_env",
+    ".env.testing": "_env",
+    ".env.development.local": "_env",
+    ".env.qa.local": "_env",
+    ".env.production.local": "_env",
+    ".env.staging.local": "_env",
+    ".env.test.local": "_env",
+    ".eslintignore": "_eslint",
+    ".eslintrc": "_eslint",
+    ".eslintrc.js": "_eslint",
+    ".eslintrc.json": "_eslint",
+    ".eslintrc.yaml": "_eslint",
+    ".eslintrc.yml": "_eslint",
+    ".gitattributes": "_git",
+    ".gitconfig": "_git",
+    ".gitignore": "_git",
+    ".gitkeep": "_git",
+    ".gitmodules": "_git",
+    ".npmignore": "_npm",
+    ".npmrc": "_npm",
+    ".nvmrc": "_nodejs",
+    ".esmrc": "_nodejs",
+    ".node-version": "_nodejs",
+    "docker-compose.override.yml": "_docker",
+    "docker-compose.yaml": "_docker",
+    "docker-compose.yml": "_docker",
+    "git-history": "_git",
+    "contributing.md": "_contributing",
+    "contributing.rst": "_contributing",
+    "contributing.txt": "_contributing",
+    "contributing": "_contributing",
+    "package.json": "_nodejs",
+    "package-lock.json": "_nodejs",
+    "changelog": "_changelog",
+    "changelog.md": "_changelog",
+    "changelog.rst": "_changelog",
+    "changelog.txt": "_changelog",
+    "changes": "_changelog",
+    "changes.md": "_changelog",
+    "changes.rst": "_changelog",
+    "changes.txt": "_changelog",
+    "tailwind.js": "_tailwindcss",
+    "tailwind.ts": "_tailwindcss",
+    "tailwind.config.js": "_tailwindcss",
+    "tailwind.config.cjs": "_tailwindcss",
+    "tailwind.config.ts": "_tailwindcss",
+    "tailwind.config.cts": "_tailwindcss",
+    "copying": "_certificate",
+    "copying.md": "_certificate",
+    "copying.rst": "_certificate",
+    "copying.txt": "_certificate",
+    "copyright": "_certificate",
+    "copyright.md": "_certificate",
+    "copyright.rst": "_certificate",
+    "copyright.txt": "_certificate",
+    "license": "_certificate",
+    "license-agpl": "_certificate",
+    "license-apache": "_certificate",
+    "license-bsd": "_certificate",
+    "license-mit": "_certificate",
+    "license-gpl": "_certificate",
+    "license-lgpl": "_certificate",
+    "license.md": "_certificate",
+    "license.rst": "_certificate",
+    "license.txt": "_certificate",
+    "licence": "_certificate",
+    "licence-agpl": "_certificate",
+    "licence-apache": "_certificate",
+    "licence-bsd": "_certificate",
+    "licence-mit": "_certificate",
+    "licence-gpl": "_certificate",
+    "licence-lgpl": "_certificate",
+    "licence.md": "_certificate",
+    "licence.rst": "_certificate",
+    "licence.txt": "_certificate",
+    ".jscsrc": "_json",
+    ".jshintrc": "_json",
+    "composer.lock": "_json",
+    ".jsbeautifyrc": "_json",
+    ".esformatter": "_json",
+    "cdp.pid": "_json",
+    ".lintstagedrc": "_json",
+    "vite.config.js": "_vite",
+    "vite.config.mjs": "_vite",
+    "vite.config.cjs": "_vite",
+    "vite.config.ts": "_vite",
+    "vite.config.cts": "_vite",
+    "vite.config.mts": "_vite"
+  },
+  "languageIds": {
+    "angular": "_angular",
+    "blade": "_blade",
+    "c": "_c",
+    "clojure": "_clojure",
+    "coffeescript": "_coffeescript",
+    "cpp": "_c++",
+    "csharp": "_c#",
+    "crystal": "_crystal",
+    "css": "_css",
+    "dart": "_dart",
+    "diff": "_default",
+    "dockerignore": "_docker",
+    "dockerfile": "_docker",
+    "elixir": "_elixir",
+    "elm": "_elm",
+    "erlang": "_erlang",
+    "fortran": "_fortran",
+    "fortran90": "_fortran",
+    "fortran95": "_fortran",
+    "fsharp": "_default",
+    "git-rebase": "_git",
+    "go": "_go",
+    "graphql": "_graphql",
+    "groovy": "_default",
+    "handlebars": "_handlebars",
+    "hare": "_hare",
+    "haxe": "_haxe",
+    "html": "_html",
+    "ng-template": "_angular",
+    "ini": "_default",
+    "jade": "_default",
+    "java": "_java",
+    "javascript": "_js",
+    "javascriptreact": "_react",
+    "json": "_json",
+    "jsonc": "_json",
+    "tsbuildinfo": "_json",
+    "json5": "_json",
+    "jsonl": "_json",
+    "ndjson": "_json",
+    "julia": "_julia",
+    "latex": "_tex",
+    "less": "_less",
+    "lua": "_lua",
+    "makefile": "_default",
+    "markdown": "_markdown",
+    "matlab": "_matlab",
+    "objective-c": "_c",
+    "objective-cpp": "_c++",
+    "perl": "_perl",
+    "php": "_php",
+    "powershell": "_shell",
+    "pug": "_pug",
+    "prolog": "_prolog",
+    "python": "_python",
+    "r": "_r",
+    "razor": "_default",
+    "reason": "_reason",
+    "rescript": "_reason",
+    "ruby": "_ruby",
+    "rust": "_rust",
+    "sass": "_sass",
+    "scss": "_sass",
+    "shaderlab": "_default",
+    "shellscript": "_shell",
+    "sql": "_sql",
+    "stylus": "_stylus",
+    "svelte": "_svelte",
+    "swift": "_swift",
+    "tex": "_tex",
+    "terraform": "_terraform",
+    "todo": "_todo",
+    "toml": "_toml",
+    "typescript": "_typescript",
+    "typescriptreact": "_react",
+    "vb": "_default",
+    "xml": "_markup",
+    "xsl": "_default",
+    "yaml": "_yaml",
+    "restructuredtext": "_restructuredtext"
+  }
 }
