@@ -1,9 +1,9 @@
 {
-  "type": "R Dark Pro (Filter Mictlan)",
+  "type": "R Dark Pro (Filter Mitclan)",
   "colors": {
     "activityBar.background": "#191b22",
     "activityBar.foreground": "#d7dae0",
-    "activityBar.activeBorder": "#528BFF",
+    "activityBar.activeBorder": "#d7dae0",
     "activityBarBadge.background": "#528BFF",
     "activityBarBadge.foreground": "#f8fafd",
     "badge.background": "#191b22",

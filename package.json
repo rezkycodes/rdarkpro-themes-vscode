@@ -2,7 +2,7 @@
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
   "description": "A theme that suits your eyes.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -27,7 +27,7 @@
       {
         "label": "R Dark Pro (Filter Night)",
         "uiTheme": "vs-dark",
-        "path": "./themes/r-night-pro-filter-night-color-theme.json"
+        "path": "./themes/r-dark-pro-filter-night-color-theme.json"
       },
       {
         "label": "R Dark Pro (Filter Full Dark)",
