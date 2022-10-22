@@ -7,7 +7,7 @@ To apply theme, it's so simple. Just open your command palette and type "setting
 
 ```json
 {
-    "workbench.colorTheme": "R Dark Pro",
+    "workbench.colorTheme": "R Dark Pro (Filter Synthwave)",
     // ...
 }
 ```
