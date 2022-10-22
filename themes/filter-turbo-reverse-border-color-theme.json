@@ -1,7 +1,8 @@
 {
-  "type": "R Dark Pro (Filter Mitclan)",
+  "type": "R Dark Pro (Filter Turbo Reverse Border)",
   "colors": {
-    "activityBar.background": "#191b22",
+    "activityBar.background": "#15171d",
+    "activityBar.border":"#131313",
     "activityBar.foreground": "#d7dae0",
     "activityBar.activeBorder": "#d7dae0",
     "activityBarBadge.background": "#528BFF",
@@ -89,16 +90,19 @@
     "scrollbarSlider.hoverBackground": "#5a637580",
     "settings.focusedRowBackground": "#191b22",
     "settings.headerForeground": "#fff",
-    "sideBar.background": "#15171d",
+    "sideBar.background": "#191b22",
+    "sideBar.border":"#131313",
     "sideBar.foreground": "#abb2bf",
     "sideBarSectionHeader.background": "#191b22",
     "sideBarSectionHeader.foreground": "#abb2bf",
-    "statusBar.background": "#15171d",
+    "statusBar.background": "#191b22",
+    "statusBar.border":"#131313",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingBorder": "#ff000000",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.foreground": "#9da5b4",
     "statusBar.noFolderBackground": "#15171d",
+    "statusBar.noFolderBorder":"#131313",
     "statusBarItem.remoteBackground": "#4d78cc",
     "statusBarItem.remoteForeground": "#f8fafd",
     "tab.activeBackground": "#191b22",
@@ -134,6 +138,7 @@
     "textPreformat.foreground": "#d19a66",
     "titleBar.activeBackground": "#191b22",
     "titleBar.activeForeground": "#9da5b4",
+    "titleBar.border":"#131313",
     "titleBar.inactiveBackground": "#15171d",
     "titleBar.inactiveForeground": "#6b717d",
     "tree.indentGuidesStroke": "#ffffff1d",
@@ -142,7 +147,6 @@
   "tokenColors": [{
       "settings": {
         "foreground": "#f8f8f2ff",
-        "background": "#191b22ff"
       }
     },
     {

@@ -2,7 +2,7 @@
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
   "description": "A theme that suits your eyes.",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -25,19 +25,74 @@
   "contributes": {
     "themes": [
       {
-        "label": "R Dark Pro (Filter Night)",
+        "label": "R Dark Pro (Filter Laser Border)",
         "uiTheme": "vs-dark",
-        "path": "./themes/r-dark-pro-filter-night-color-theme.json"
+        "path": "./themes/filter-laser-border-color-theme.json"
       },
       {
-        "label": "R Dark Pro (Filter Full Dark)",
+        "label": "R Dark Pro (Filter Laser)",
         "uiTheme": "vs-dark",
-        "path": "./themes/r-dark-pro-filter-full-dark-color-theme.json"
+        "path": "./themes/filter-laser-color-theme.json"
       },
       {
-        "label": "R Dark Pro (Filter Mitclan)",
+        "label": "R Dark Pro (Filter Laser Reverse Border)",
         "uiTheme": "vs-dark",
-        "path": "./themes/r-dark-pro-filter-mitclan-color-theme.json"
+        "path": "./themes/filter-laser-reverse-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Laser Reverse)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-laser-reverse-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Synthwave Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-synthwave-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Synthwave)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-synthwave-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Synthwave Full Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-synthwave-full-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Synthwave Full)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-synthwave-full-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Synthwave Reverse Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-synthwave-reverse-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Synthwave Reverse)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-synthwave-reverse-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Turbo Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-turbo-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Turbo)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-turbo-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Turbo Reverse Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-turbo-reverse-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Turbo Reverse)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-turbo-reverse-color-theme.json"
       }
     ],
     "iconThemes": [

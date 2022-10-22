@@ -1,9 +1,16 @@
 # Change Log
 
-All notable changes to the "r-dark-pro" extension will be documented in this file.
+## 0.0.5 | 2022.10.22
+- Add more themes 
 
-Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.4 | 2022.10.21
+- Add more themes 
 
-## [Unreleased]
+## 0.0.3 | 2022.10.21
+- Add more file icon 
 
-- Initial release
+## 0.0.2 | 2022.10.21
+- Add file icon 
+
+## 0.0.1 | 2022.10.21
+- Release 
