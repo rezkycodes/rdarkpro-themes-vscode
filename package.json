@@ -2,7 +2,7 @@
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
   "description": "A theme that suits your eyes.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
