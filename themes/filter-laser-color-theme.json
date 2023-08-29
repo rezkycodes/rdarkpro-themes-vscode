@@ -138,7 +138,6 @@
 		"titleBar.inactiveForeground": "#6b717d",
 		"tree.indentGuidesStroke": "#ffffff1d",
 		"walkThrough.embeddedEditorBackground": "#2e3440"
-		// "welcomePage.buttonHoverBackground": "#404754"
 	},
 	"tokenColors":[ 
       { 
