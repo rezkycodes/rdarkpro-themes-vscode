@@ -2,7 +2,7 @@
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
   "description": "R Dark Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code.",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -134,6 +134,11 @@
         "label": "R Dark Pro Monochrome Icons",
         "id": "r_dark_pro_monochrome_icons",
         "path": "./icon-themes/R Dark Pro Monochrome icon-theme.json"
+      },
+      {
+        "label": "R Dark Pro White Icons",
+        "id": "r_dark_pro_white_icons",
+        "path": "./icon-themes/R Dark Pro White icon-theme.json"
       }
     ]
   }

@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.18 | 2023.09.06
+- add icon theme white 
+
 ## 0.0.17 | 2023.09.06
 - add theme nightblack border and black white border
 
