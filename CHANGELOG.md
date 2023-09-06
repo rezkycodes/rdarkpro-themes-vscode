@@ -1,4 +1,10 @@
 # Change Log
+## 0.0.15 | 2023.09.06
+- change border color and hover selection filter black white
+
+## 0.0.14 | 2023.09.06
+- change border color and hover selection filter black white
+
 ## 0.0.13 | 2023.09.06
 - add id icon filter black white color
 
