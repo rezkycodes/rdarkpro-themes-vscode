@@ -1,4 +1,13 @@
 # Change Log
+## 0.0.13 | 2023.09.06
+- add id icon filter black white color
+
+## 0.0.12 | 2023.09.06
+- add filter black white color
+
+## 0.0.11 | 2023.09.01
+- change base color nightfall
+
 ## 0.0.10 | 2023.08.29
 - change base color nightfall and change color icon php
 

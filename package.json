@@ -1,26 +1,30 @@
 {
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
-  "description": "A theme that suits your eyes.",
-  "version": "0.0.9",
+  "description": "R Dark Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code.",
+  "version": "0.0.13",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rezkyrere/r-dark-pro"
+    "url": "https://github.com/rezkypb/r-dark-pro"
   },
   "publisher": "Rezky",
   "categories": [
     "Themes"
   ],
+  "pricing": "Free",
   "keywords": [
     "theme",
     "dark theme",
     "r dark",
     "r dark pro",
-    "r dark pro theme"
+    "r dark pro theme",
+    "r dark pro nightfall",
+    "r dark pro black white",
+    "black white"
   ],
   "contributes": {
     "themes": [
@@ -98,13 +102,23 @@
         "label": "R Dark Pro (Filter Nightfall)",
         "uiTheme": "vs-dark",
         "path": "./themes/filter-nightfall-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Black White)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-black-white-color-theme.json"
       }
     ],
     "iconThemes": [
       {
         "label": "R Dark Pro Icons",
-        "id": "R Dark Pro Icons",
+        "id": "r_dark_pro_icons",
         "path": "./icon-themes/R Dark Pro icon-theme.json"
+      },
+      {
+        "label": "R Dark Pro Monochrome Icons",
+        "id": "r_dark_pro_monochrome_icons",
+        "path": "./icon-themes/R Dark Pro Monochrome icon-theme.json"
       }
     ]
   }
