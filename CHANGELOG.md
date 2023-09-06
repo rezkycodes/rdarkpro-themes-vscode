@@ -1,4 +1,10 @@
 # Change Log
+## 0.0.17 | 2023.09.06
+- add theme nightblack border and black white border
+
+## 0.0.16 | 2023.09.06
+- add theme nightblack
+
 ## 0.0.15 | 2023.09.06
 - change border color and hover selection filter black white
 
