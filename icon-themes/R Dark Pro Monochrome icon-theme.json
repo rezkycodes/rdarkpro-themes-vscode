@@ -381,6 +381,9 @@
         "_yaml": {
             "fontCharacter": "\\F159",
             "fontColor": "#6b7678"
+        },
+        "_schema": {
+            "fontColor": "#6b7678"
         }
     },
     "file": "_default",
@@ -428,7 +431,8 @@
         "code-workplace": "_vscode",
         "webp": "_image",
         "woff": "_font",
-        "woff2": "_font"
+        "woff2": "_font",
+        "prisma" : "_schema"
     },
     "fileNames": {
         "artisan": "_blade",
@@ -534,6 +538,7 @@
         ".esformatter": "_json",
         "cdp.pid": "_json",
         ".lintstagedrc": "_json",
+        "schema.prisma": "_schema",
         "vite.config.js": "_vite",
         "vite.config.mjs": "_vite",
         "vite.config.cjs": "_vite",

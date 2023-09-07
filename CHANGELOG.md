@@ -1,4 +1,10 @@
 # Change Log
+## 0.0.20 | 2023.09.08
+- change color remote host color all theme
+
+## 0.0.19 | 2023.09.07
+- add icon color schema
+
 ## 0.0.18 | 2023.09.06
 - add icon theme white 
 
