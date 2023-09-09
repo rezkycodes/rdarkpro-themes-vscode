@@ -2,7 +2,7 @@
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
   "description": "R Dark Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code.",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -24,7 +24,10 @@
     "r dark pro theme",
     "r dark pro nightfall",
     "r dark pro black white",
-    "black white"
+    "black white",
+    "night turbo",
+    "synthwave",
+    "laser"
   ],
   "contributes": {
     "themes": [
@@ -122,6 +125,11 @@
         "label": "R Dark Pro (Filter Nightblack Border)",
         "uiTheme": "vs-dark",
         "path": "./themes/filter-nightblack-border-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Night Turbo)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-night-turbo-color-theme.json"
       }
     ],
     "iconThemes": [

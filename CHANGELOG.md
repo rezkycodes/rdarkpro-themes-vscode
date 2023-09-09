@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.22 | 2023.09.09
+- add filter night turbo
+
 ## 0.0.21 | 2023.09.08
 - change color cursor on black white filter
 
