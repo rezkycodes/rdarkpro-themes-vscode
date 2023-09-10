@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.23 | 2023.09.10
+- change color icon white and some color
+
 ## 0.0.22 | 2023.09.09
 - add filter night turbo
 
