@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.24 | 2023.09.12
+- change color icon white and filter black white
+
 ## 0.0.23 | 2023.09.10
 - change color icon white and some color
 
