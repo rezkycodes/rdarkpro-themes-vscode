@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.26 | 2023.09.13
+- udpate search bg color in black white theme
+
 ## 0.0.25 | 2023.09.13
 - update icon white color  
 
