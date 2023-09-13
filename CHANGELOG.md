@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.27 | 2023.09.13
+- udpate color black white number
+
 ## 0.0.26 | 2023.09.13
 - udpate search bg color in black white theme
 

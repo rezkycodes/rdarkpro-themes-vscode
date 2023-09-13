@@ -283,7 +283,7 @@
             "scope": "constant.numeric",
             "settings": {
                 "name": "Number",
-                "foreground": "#7e7d7e"
+                "foreground": "#f7f1ff"
             }
         },
         {
