@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.28 | 2023.09.13
+- add black white contrast and update color black white and icon white
+
 ## 0.0.27 | 2023.09.13
 - udpate color black white number
 
