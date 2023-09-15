@@ -162,6 +162,14 @@
       "fontCharacter": "\\F121",
       "fontColor": "#5ad4e6"
     },
+    "_gomod": {
+      "fontCharacter": "\\F121",
+      "fontColor": "#f91a1a"
+    },
+    "_gosum": {
+      "fontCharacter": "\\F121",
+      "fontColor": "#f91a1a"
+    },
     "_graphql": {
       "fontCharacter": "\\F122",
       "fontColor": "#fc618d"
@@ -479,6 +487,8 @@
     "docker-compose.yaml": "_docker",
     "docker-compose.yml": "_docker",
     "git-history": "_git",
+    "go.mod": "_gomod",
+    "go.sum": "_gosum",
     "contributing.md": "_contributing",
     "contributing.rst": "_contributing",
     "contributing.txt": "_contributing",
@@ -564,6 +574,8 @@
     "fsharp": "_default",
     "git-rebase": "_git",
     "go": "_go",
+    "gomod": "_gomod",
+    "gosum": "_gosum",
     "graphql": "_graphql",
     "groovy": "_default",
     "handlebars": "_handlebars",

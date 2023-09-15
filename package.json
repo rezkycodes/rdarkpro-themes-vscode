@@ -135,6 +135,11 @@
         "label": "R Dark Pro (Filter Night Turbo)",
         "uiTheme": "vs-dark",
         "path": "./themes/filter-night-turbo-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Night Grey)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-nightgrey-color-theme.json"
       }
     ],
     "iconThemes": [
