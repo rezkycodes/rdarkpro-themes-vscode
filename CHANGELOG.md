@@ -1,4 +1,10 @@
 # Change Log
+## 0.0.31 | 2023.11.01
+- update theme nightfall an turbo selected
+
+## 0.0.30 | 2023.10.20
+- update nightfall border
+
 ## 0.0.29 | 2023.09.15
 - add color night grey
 
