@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.32 | 2024.01.02
+- add filter rdarkpro
+
 ## 0.0.31 | 2023.11.01
 - update theme nightfall an turbo selected
 
