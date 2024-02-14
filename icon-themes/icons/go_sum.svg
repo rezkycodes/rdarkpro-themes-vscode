@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, 0.19885899126529516, 0.010019000619649887)">
+    <text style="fill: rgb(249, 38, 114); font-family: 'JetBrainsMono Nerd Font'; font-size: 10.4px; font-weight: 800; letter-spacing: -0.7px; white-space: pre;" x="4.123" y="11.733">GO</text>
+    <rect x="1.214" y="5.578" width="2.909" height="0.955" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 38, 114);"/>
+    <rect x="0.252" y="7.528" width="3.871" height="0.955" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 38, 114);"/>
+    <rect x="3.166" y="9.465" width="0.957" height="0.955" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 38, 114);"/>
+  </g>
+</svg>

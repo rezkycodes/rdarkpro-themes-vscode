@@ -2,7 +2,7 @@
   "name": "r-dark-pro",
   "displayName": "R Dark Pro",
   "description": "R Dark Pro is a color scheme, customized user interface theme and complete icon set for Visual Studio Code.",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.72.0"
@@ -150,23 +150,33 @@
         "label": "R Dark Pro (Filter Night Purple)",
         "uiTheme": "vs-dark",
         "path": "./themes/filter-night-purple-color-theme.json"
+      },
+      {
+        "label": "R Dark Pro (Filter Night Coolnight Border)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/filter-coolnight-border-color-theme.json"
       }
     ],
     "iconThemes": [
       {
         "label": "R Dark Pro Icons",
         "id": "r_dark_pro_icons",
-        "path": "./icon-themes/R Dark Pro icon-theme.json"
+        "path": "./icon-themes/r_dark_pro_icon.json"
       },
       {
         "label": "R Dark Pro Monochrome Icons",
         "id": "r_dark_pro_monochrome_icons",
-        "path": "./icon-themes/R Dark Pro Monochrome icon-theme.json"
+        "path": "./icon-themes/r_dark_pro_icon_monochrome.json"
       },
       {
         "label": "R Dark Pro White Icons",
         "id": "r_dark_pro_white_icons",
-        "path": "./icon-themes/R Dark Pro White icon-theme.json"
+        "path": "./icon-themes/r_dark_pro_icon_white.json"
+      },
+      {
+        "label": "R Dark Pro Nightfall Icons",
+        "id": "r_dark_pro_nightfall_icons",
+        "path": "./icon-themes/r_dark_pro_icon_nightfall.json"
       }
     ]
   }

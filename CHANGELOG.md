@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.37 | 2024.02.14
+- add icon nightfall
+
 ## 0.0.34 | 2024.02.03
 - change filter neon to coolnight
 

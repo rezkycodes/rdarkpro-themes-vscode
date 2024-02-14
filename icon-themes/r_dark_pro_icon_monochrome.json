@@ -4,7 +4,7 @@
             "id": "r_dark_pro_monochrome_icons",
             "src": [
                 {
-                    "path": "./r_dark_pro_icons.woff",
+                    "path": "./icons/r_dark_pro_icons.woff",
                     "format": "woff"
                 }
             ],
