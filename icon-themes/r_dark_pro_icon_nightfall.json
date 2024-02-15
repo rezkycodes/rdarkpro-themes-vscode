@@ -31,7 +31,10 @@
             "iconPath": "./icons/prisma.svg"
         },
         "file_react": {
-            "iconPath": "./icons/react_dark.svg"
+            "iconPath": "./icons/react.svg"
+        },
+        "file_reactts": {
+            "iconPath": "./icons/react_ts.svg"
         },
         "file_ruby": {
             "iconPath": "./icons/ruby_dark.svg"
@@ -206,6 +209,27 @@
         },
         "file_embedded_elixir": {
             "iconPath": "./icons/eex_dark.svg"
+        },
+        "file_nextjs": {
+            "iconPath": "./icons/nextjs.svg"
+        },
+        "file_packagejson": {
+            "iconPath": "./icons/nodejs.svg"
+        },
+        "file_robots": {
+            "iconPath": "./icons/robots.svg"
+        },
+        "file_tsconfig": {
+            "iconPath": "./icons/tsconfig.svg"
+        },
+        "file_tune": {
+            "iconPath": "./icons/tune.svg"
+        },
+        "vscode": {
+            "iconPath": "./icons/vscode.svg"
+        },
+        "certificate": {
+            "iconPath": "./icons/certificate.svg"
         }
     },
     "file": "file_text",
@@ -215,6 +239,8 @@
         ".gitignore": "file_gitignore",
         ".gitattributes": "file_gitignore",
         ".gitmodules": "file_gitignore",
+        "composer.json": "file_json",
+        "composer.lock": "file_json",
         "go.mod": "file_gomod",
         "go.sum": "file_gosum",
         ".editorconfig": "file_editorconfig",
@@ -233,14 +259,31 @@
         "Gemfile.lock": "file_gemfile",
         "Makefile": "file_makefile",
         ".env": "file_any",
-        ".env.local": "file_any",
-        ".env.test": "file_any",
+        ".env.defaults": "file_any",
         ".env.example": "file_any",
+        ".env.sample": "file_any",
+        ".env.template": "file_any",
+        ".env.schema": "file_any",
+        ".env.local": "file_any",
+        ".env.dev": "file_any",
         ".env.development": "file_any",
+        ".env.alpha": "file_any",
+        ".env.e2e": "file_any",
+        ".env.qa": "file_any",
+        ".env.dist": "file_any",
+        ".env.prod": "file_any",
         ".env.production": "file_any",
-        ".env.test.local": "file_any",
+        ".env.stage": "file_any",
+        ".env.staging": "file_any",
+        ".env.preview": "file_any",
+        ".env.test": "file_any",
+        ".env.testing": "file_any",
         ".env.development.local": "file_any",
+        ".env.qa.local": "file_any",
         ".env.production.local": "file_any",
+        ".env.staging.local": "file_any",
+        ".env.test.local": "file_any",
+        ".env.uat": "file_any",
         "Cargo.toml": "file_cargo",
         "rust-toolchain.toml": "file_cargo",
         "Cargo.lock": "file_cargolock",
@@ -265,11 +308,56 @@
         ".eslintrc.yml": "file_eslint",
         ".eslintrc.yaml": "file_eslint",
         ".eslintignore": "file_eslint",
-        "blade.php" : "file_blade"
+        "blade.php" : "file_blade",
+        "artisan" :"file_blade",
+        "next.config.js" :"file_nextjs",
+        "package.json" :"file_packagejson",
+        "package-lock.json" :"file_packagejson",
+        "robots.txt" :"file_robots",
+        "tsconfig.json" :"file_tsconfig",
+        "copying": "certificate",
+        "copying.md": "certificate",
+        "copying.rst": "certificate",
+        "copying.txt": "certificate",
+        "copyright": "certificate",
+        "copyright.md": "certificate",
+        "copyright.rst": "certificate",
+        "copyright.txt": "certificate",
+        "license": "certificate",
+        "license-agpl": "certificate",
+        "license-apache": "certificate",
+        "license-bsd": "certificate",
+        "license-mit": "certificate",
+        "license-gpl": "certificate",
+        "license-lgpl": "certificate",
+        "license.md": "certificate",
+        "license.rst": "certificate",
+        "license.txt": "certificate",
+        "licence": "certificate",
+        "licence-agpl": "certificate",
+        "licence-apache": "certificate",
+        "licence-bsd": "certificate",
+        "licence-mit": "certificate",
+        "licence-gpl": "certificate",
+        "licence-lgpl": "certificate",
+        "licence.md": "certificate",
+        "licence.rst": "certificate",
+        "licence.txt": "certificate"
     },
     "fileExtensions": {
+        "vscodeignore": "vscode",
+        "vsixmanifest": "vscode",
+        "vsix": "vscode",
+        "code-workplace": "vscode",
+        "code-workspace": "vscode",
+        "code-profile": "vscode",
+        "code-snippets": "vscode",
+        "cer": "certificate",
+        "cert": "certificate",
+        "crt": "certificate",
         "prisma": "file_prisma",
         "blade.php": "file_blade",
+        "log": "file_any",
         "css": "file_css",
         "dart": "file_dart",
         "erb": "file_erb",
@@ -279,7 +367,7 @@
         "json": "file_json",
         "html": "file_html",
         "jsx": "file_react",
-        "tsx": "file_react",
+        "tsx": "file_reactts",
         "rake": "file_rake",
         "rb": "file_ruby",
         "less": "file_less",
