@@ -1,4 +1,7 @@
 # Change Log
+## 0.0.39 | 2024.04.23
+- add new icon nightfall
+
 ## 0.0.38 | 2024.02.15
 - add new icon nightfall
 
